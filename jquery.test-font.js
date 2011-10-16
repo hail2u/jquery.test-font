@@ -13,23 +13,19 @@
     var result = false;
     var text   = "abcdefghijklmnopqrstuvwxyz";
 
-    // create yardstick
     var yardstick = $("<div/>").css({
       "display":     "none",
       "font-family": "jquery.test-font"
     }).append(text).appendTo("body");
 
-    // create div for test and apped to body
     var test = yardstick.clone().css({
       "font-family": fontname
     }).appendTo("body");
 
-    // compare
     if (test.width() !== yardstick.width()) {
       result = true;
     }
 
-    // dispose
     yardstick.remove();
     test.remove();
 
