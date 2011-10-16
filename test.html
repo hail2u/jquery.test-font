@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Test page for Test Font</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="./jquery.test-font.js"></script>
+    <script>
+      $(function (){
+        $("#testfont").submit(function () {
+          var availability = "not available.";
+          var fontname = $("#fontname").val();
+
+          if ($.testFont(fontname)) {
+            availability = "available!";
+          }
+
+          var p = $("<p/>").append("\"" + fontname + "\" is " + availability).appendTo("body");
+
+          return false;
+        })
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>Test page for Test Font</h1>
+    </header>
+
+    <form action="#" id="testfont">
+      <p>Input font name and press Test.</p>
+      <p>
+        <label for="fontname">Font Name:</label>
+        <input type="text" size="24" id="fontname">
+        <input type="submit" value="Test">
+      </p>
+    </form>
+  </body>
+</html>
