@@ -11,11 +11,12 @@
 (function ($) {
   $.testFont = function (fontname) {
     var result = false;
-    var text = "abcdefghijklmnopqrstuvwxyz";
+    var text   = "abcdefghijklmnopqrstuvwxyz";
 
     // create yardstick
     var yardstick = $("<div/>").css({
-      "display":  "none"
+      "display":     "none",
+      "font-family": "jquery.test-font"
     }).append(text).appendTo("body");
 
     // create div for test and apped to body
