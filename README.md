@@ -23,6 +23,4 @@ Alert if "Helvetica Neue" is available:
 LICENSE
 =======
 
-Copyright (c) 2011 Kyo Nagashima <kyo@hail2u.net>  
-This library licensed under MIT license:  
-http://opensource.org/licenses/mit-license.php
+MIT: http://hail2u.mit-license.org/2011
