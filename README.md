@@ -1,7 +1,7 @@
 TITLE
 =====
 
-jQuery Plugin: Test Font - version 0.1
+jQuery Plugin: Test Font - version 0.2
 
 
 DESCRIPTION
