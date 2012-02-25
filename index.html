@@ -5,8 +5,29 @@
 
     <title>Test page for Test Font</title>
 
+    <link rel="stylesheet" href="http://hail2u.github.com/natural.css">
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Test page for Test Font</h1>
+    </header>
+
+    <form action="#" id="testfont">
+      <p>Input font name and press Test.</p>
+      <p>
+        <label for="fontname">Font Name:</label>
+        <input type="text" size="24" id="fontname">
+        <input type="submit" value="Test">
+      </p>
+    </form>
+
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="https://github.com/hail2u/jquery.test-font/raw/master/jquery.test-font.js"></script>
+    <script src="jquery.test-font.min.js"></script>
     <script>
       $(function (){
         $("#testfont").submit(function () {
@@ -23,19 +44,5 @@
         })
       });
     </script>
-  </head>
-  <body>
-    <header>
-      <h1>Test page for Test Font</h1>
-    </header>
-
-    <form action="#" id="testfont">
-      <p>Input font name and press Test.</p>
-      <p>
-        <label for="fontname">Font Name:</label>
-        <input type="text" size="24" id="fontname">
-        <input type="submit" value="Test">
-      </p>
-    </form>
   </body>
 </html>
