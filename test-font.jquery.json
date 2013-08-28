@@ -1,0 +1,22 @@
+{
+  "name": "test-font",
+  "version": "0.2.0",
+  "title": "Test Font",
+  "author": {
+    "name": "Kyo Nagashima",
+    "url": "http://hail2u.net/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://hail2u.mit-license.org/2011"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.5"
+  },
+  "description": "Test font availability.",
+  "homepage": "https://github.com/hail2u/jquery.test-font",
+  "demo": "http://hail2u.github.io/jquery.test-font/",
+  "bugs": "https://github.com/hail2u/jquery.test-font/issues"
+}
