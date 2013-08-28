@@ -1,5 +1,5 @@
 /**
- * @preserve jQuery Plugin: Test Font - version 0.2
+ * @preserve jQuery Plugin: Test Font v0.2.0
  *
  * LICENSE: http://hail2u.mit-license.org/2011
  */

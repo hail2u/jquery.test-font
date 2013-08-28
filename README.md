@@ -1,11 +1,5 @@
-TITLE
-=====
-
-jQuery Plugin: Test Font - version 0.2
-
-
-DESCRIPTION
-===========
+jQuery Plugin: Test Font v0.2.0
+===============================
 
 Test font availability.
 
